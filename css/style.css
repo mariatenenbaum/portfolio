@@ -4,6 +4,13 @@
 	margin-top: 3.75rem;
 }
 
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	.me-margin-top {
+		margin-top: 1rem;
+	}
+}
+
+
 /* First section */
 .me-background__pattern {
 	background-image: url('../img/debut_light.png');
