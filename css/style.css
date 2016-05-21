@@ -1,5 +1,9 @@
 /* Helpers */
 
+body {
+font-family: 'Actor', sans-serif;
+}
+
 .me-margin-top {
 	margin-top: 3.75rem;
 }
@@ -10,6 +14,9 @@
 	}
 }
 
+.me-padding {
+padding: 4rem;
+}
 
 /* First section */
 .me-background__pattern {
@@ -18,8 +25,10 @@
 	
 }
 
+
 .me-img {
-	border-radius: 50%;
+	border: 3px solid #838487;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .me-blinking-cursor {
@@ -51,6 +60,8 @@
 .me-works__boxes { 
 	margin: 1rem;
 	cursor: pointer;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border: 3px solid #838487;
 }
 
 .me-works__boxes:hover img {
