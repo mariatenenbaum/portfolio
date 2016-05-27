@@ -15,11 +15,11 @@
 var phrases;
         function setPhrases(){
             phrases = {
-                1: "Hi,".split(""),
-                2: "Hej,".split(""),
-                3: "Ciao,".split(""),
-                4: "Hola,".split(""),
-                5: "Привет,".split(""),
+                1: "Hi :)".split(""),
+                2: "Hej :)".split(""),
+                3: "Ciao :)".split(""),
+                4: "Hola :)".split(""),
+                5: "Привет:)".split(""),
             };
         }
         setPhrases();
